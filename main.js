@@ -1,8 +1,10 @@
 // Loops
 function Loops()
 {
-    for(let i = 0; i++; i<5)
+    for(let i = 0; i<5; i++)
     {
-        console.log(`Num: {i}`)
+        console.log("Num: " + i)
     }
 }
+
+console.log(Loops())
